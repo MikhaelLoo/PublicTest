@@ -11,6 +11,7 @@
   This time via WebHook.  <br/>
   How might we get a configMap or Secret value? <br/>
   Environment: <?php echo getenv("CURRENT-ENVIRONMENT"); ?> 
+  Environment Variable: <?php echo $_ENV['CURRENT-ENVIRONMENT']; ?>
   Did it work?
  
  <?php phpinfo(); ?>
