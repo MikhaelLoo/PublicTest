@@ -13,7 +13,9 @@
   Environment: <?php echo getenv("CURRENT-ENVIRONMENT"); ?> <br/>
   Environment Variable: <?php echo $_ENV['CURRENT-ENVIRONMENT']; ?><br/>
   Did it work?<br/>
- 
+  Here is a secret: <?php echo getenv("DEV-PASSWORD"); ?> <br/>
+  Here is a secret Variable: <?php echo $_ENV['DEV-PASSWORD']; ?><br/>
+  <br/>
  <?php phpinfo(); ?>
  </body>
 </html>
