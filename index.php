@@ -10,9 +10,9 @@
   This time via commandline. <br/>
   This time via WebHook.  <br/>
   How might we get a configMap or Secret value? <br/>
-  Environment: <?php echo getenv("CURRENT-ENVIRONMENT"); ?> 
-  Environment Variable: <?php echo $_ENV['CURRENT-ENVIRONMENT']; ?>
-  Did it work?
+  Environment: <?php echo getenv("CURRENT-ENVIRONMENT"); ?> <br/>
+  Environment Variable: <?php echo $_ENV['CURRENT-ENVIRONMENT']; ?><br/>
+  Did it work?<br/>
  
  <?php phpinfo(); ?>
  </body>
