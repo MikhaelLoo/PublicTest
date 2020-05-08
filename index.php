@@ -10,8 +10,9 @@
   This time via commandline. <br/>
   This time via WebHook.  <br/>
   How might we get a configMap or Secret value? <br/>
-  <?php print_r(parse_ini_file("test.ini")); ?> <br />
+  <?php echo getenv("environment"); ?> 
   Did it work?
+ 
  <?php phpinfo(); ?>
  </body>
 </html>
